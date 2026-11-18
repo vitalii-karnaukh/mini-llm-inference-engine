@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# model weights and run outputs
+weights/
+*.safetensors
+runs/
+traces/
+*.nsys-rep
+*.ncu-rep
+
+.DS_Store
+.idea/
+.vscode/
