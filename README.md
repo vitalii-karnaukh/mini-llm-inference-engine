@@ -33,3 +33,4 @@ pytest -m "not gpu"
 - [Plan](docs/PLAN.md): build order, step by step
 - [Design](docs/DESIGN.md): decisions and tradeoffs
 - [Results](docs/RESULTS.md): benchmark write-ups
+- [Exercises](docs/EXERCISES.md): questions per step
