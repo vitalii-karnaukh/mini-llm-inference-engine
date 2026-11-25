@@ -66,6 +66,11 @@ hashing a partial last block, where the all-reduce goes.
 Yours: dtype/device mismatches, weight key renaming, stop tokens, argument
 parsing, empty-batch guards, loop off-by-ones outside CORE, logging, plotting.
 
+Model-specific quirks are always mechanical and yours: whether a projection has a
+bias, tied embeddings, exact config numbers, weight names, RoPE layout variants.
+Handle them in the scaffold. Teach and ask about concepts in general terms
+(D, Hq, Hkv, d, L), using one model's numbers only as an example.
+
 ## Modes
 
 I start requests with a mode word. Default to **review** if unclear.
